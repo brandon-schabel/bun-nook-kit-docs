@@ -26,8 +26,9 @@ Visit `http://localhost:3000` for a demo.
 The goal of BNK is to provide a set of tools in which a developer can rapidly develop full-stack interactive JavaScript application with no additional dependencies, BNK relies on nothing but the APIs provided by Bun. Bun is now on >1.0 and is stable and as such BNK is focusing on providing a stable 1.0 release to lock in the APIs.
 
 
-## Use What You need
-### Build a full stack server with templating - using the  with the 
+### Use What You need
+#### Build a full stack server with templating:
+Example of how you use the following modules to build out a full stack server
 - [Server Module](readmes/server.md)   handle the application business logic - generate webpages on the server with...
 - [HTMLody Module](readmes/htmlody.md) HTML templating with JSON object syntax. With a Tailwind-like CSS utility library!
 - [SQLite Module](readmes/sqlite.md) store permanent data!
@@ -38,8 +39,6 @@ The goal of BNK is to provide a set of tools in which a developer can rapidly de
 
 ### [View All Modules](modules.md)
 
-
-Explore various example projects to understand BNK's practical applications.
 
 ## Community
 

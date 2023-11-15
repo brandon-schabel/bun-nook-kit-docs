@@ -1,4 +1,4 @@
-# State Module Usage Guide with TypeScript Type Safety
+# State Managment Module Usage Guide
 
 Enhancing the State Management Utilities in the Bun Nook Kit (BNK) with TypeScript type safety adds a robust layer to your application, ensuring that data types are consistent and errors are minimized. This guide shows how to use the state module with TypeScript for added type safety.
 

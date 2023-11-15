@@ -1,4 +1,4 @@
-# NPM Release Module Readme
+# NPM Release Module
 
 ## Overview
 

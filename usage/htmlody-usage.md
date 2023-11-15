@@ -1,4 +1,4 @@
-### HTMLody Guide: Building HTML Pages with TypeScript
+# HTMLody Usage Guide: Building HTML Pages with TypeScript
 
 ## Overview
 

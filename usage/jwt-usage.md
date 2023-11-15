@@ -1,4 +1,4 @@
-## Usage Guide: JSON Web Tokens (JWT) in TypeScript (Backend)
+# JWT Usage Guide
 
 Welcome to the world of JWTs in TypeScript, where we make security fun (and strongly typed)! Let's dive into how to use JWTs on the backend, complete with typed JWTs, custom data insertion, and more.
 

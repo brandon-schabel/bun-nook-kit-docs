@@ -1,4 +1,4 @@
-### SQLite Module Usage Guide with TypeScript
+# SQLite Usage Guide
 
 ---
 

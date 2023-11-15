@@ -1,4 +1,4 @@
-# SQLite Module README
+# SQLite Module
 
 ## Introduction
 

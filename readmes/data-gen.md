@@ -1,4 +1,4 @@
-# Data Generation Factory
+# Data Gen Module
 
 This data generation factory provides a set of utility scripts and functions to generate various types of random data such as cities, names, countries and states.
 

@@ -1,4 +1,4 @@
-# Files-Folder Module README
+# Files-Folder Module
 
 ## Introduction
 

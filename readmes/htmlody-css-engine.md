@@ -1,6 +1,10 @@
-# CSS Engine Module README
+# HTMLody CSS Engine Module
 
-## Introduction
+
+## Background
+Rarely would you every have to interact directly with this module, because HTMLody has a built in plugins that allows a nice abstraction. 
+
+## Overview
 
 The CSS Engine Module, inspired by Tailwind CSS, offers a dynamic and flexible approach to creating utility-first CSS rules in JavaScript applications. When used in conjunction with the HTMLody module, it forms a powerful templating system, enabling developers to efficiently style HTML templates with a Tailwind-like API. This module simplifies the process of generating responsive and customizable CSS classes, enhancing the development experience in web projects.
 

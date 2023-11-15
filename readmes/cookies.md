@@ -1,4 +1,4 @@
-# Cookies Factory README
+# Cookies Module
 
 ## Overview
 
@@ -6,7 +6,7 @@ The **Cookie Factory** provides utility functions to manage cookies on both the 
 
 ## Table of Contents
 
-- [Cookies Factory README](#cookies-factory-readme)
+- [Cookies Module](#cookies-module)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)

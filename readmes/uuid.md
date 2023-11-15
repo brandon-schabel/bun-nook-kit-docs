@@ -1,4 +1,4 @@
-# UUID Module README
+# UUID Module
 
 ## Introduction
 

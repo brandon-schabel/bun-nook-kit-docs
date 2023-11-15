@@ -1,4 +1,4 @@
-# JWT Life Cycle
+# JWT Module
 
 ## 1. User Authentication (Server Side)
 

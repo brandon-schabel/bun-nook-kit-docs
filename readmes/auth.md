@@ -1,4 +1,4 @@
-Auth Module for Bun Nook Kit
+# Auth Module
 
 ## Introduction
 

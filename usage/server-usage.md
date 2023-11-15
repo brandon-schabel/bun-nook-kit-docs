@@ -1,4 +1,4 @@
-### Server Module Usage Guide with TypeScript and HTMLody Integration
+# Server Usgae Guide
 
 ---
 

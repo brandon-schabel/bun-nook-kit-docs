@@ -1,6 +1,6 @@
-# HTMLody Plugins and README
+# HTMLody Plugins
 
-## Introduction
+## Overview
 
 HTMLody Plugins and Types are integral parts of a system designed for dynamic HTML content generation and manipulation. This module, a key component of the larger HTMLody ecosystem, provides extensible plugins and type definitions that enrich HTML elements with additional functionalities like responsive class records and markdown processing.
 

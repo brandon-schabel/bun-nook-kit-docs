@@ -1,5 +1,4 @@
-# Bun Nook Kit Server Module README
-
+# Server Module
 ## Introduction
 
 The Bun Nook Kit Server Module is a robust solution for building servers in Bun-based applications, emphasizing type safety and modularity. It integrates functionalities like request handling, dynamic routing, middleware management, CORS configurations, and server utilities, providing a comprehensive server-side toolkit for modern web applications.

@@ -1,4 +1,4 @@
-# HTMLody
+# HTMLody Module
 
 ## Generate Static Or Dynamic Content with a Plugable JSON to HTML and CSS converter
 
