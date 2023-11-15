@@ -48,8 +48,8 @@ Join our [Discord Server](https://discord.gg/rQyWN7V6) for support, discussions,
 ## Screenshots
 
 An HTMLody component, as well the TypeScript inference abilities as all the types shown in the in intellisense were inferred from the SQLite schema configured for the user subscription.
-<img width="1026" alt="Xnapper-2023-11-14-19 42 26" src="https://github.com/brandon-schabel/bun-nook-kit/assets/18100375/8b5a1aa2-94f6-4af1-9e1d-8b7ce9eb4b01">
 
+<img width="656" alt="Xnapper-2023-11-15-00 26 10" src="https://github.com/brandon-schabel/bun-nook-kit-docs/assets/18100375/70dc6060-4897-4603-b027-e3f81076738d">
 
 The next two screenshots show how easy it can be to create and start a server - even with middleware with great type inference.
 
