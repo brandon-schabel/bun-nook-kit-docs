@@ -1,4 +1,4 @@
-# Bun Nook Kit (BNK)
+# Bun Nook Kit
 
 ![Bun Nook Kit Logo](https://user-images.githubusercontent.com/18100375/231109092-34bdc552-dd37-413d-8eec-b9b668340b65.png)
 
@@ -35,10 +35,11 @@ Example of how you use the following modules to build out a full stack server
 - [Auth Module](readmes/auth.md) - If your application requires it!
 
 
-## Documentation
+### Extensive Documentation
 
-### [View All Modules](modules.md)
+There is a plethoria of documentation to follow, and you can find a complete list of the available modules below.
 
+#### [View All Module Docs](modules.md)
 
 ## Community
 

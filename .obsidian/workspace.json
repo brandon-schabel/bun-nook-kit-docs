@@ -147,12 +147,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d214f0483a3ef2ce",
+  "active": "c6939e7bdae25dc9",
   "lastOpenFiles": [
-    "usage/fetcher-usage.md",
+    "homepage.md",
     "modules.md",
-    "readmes/state.md",
     "README.md",
+    "usage/fetcher-usage.md",
+    "readmes/state.md",
     "readmes/server.md",
     "readmes/npm-release.md",
     "readmes/logger.md",
@@ -174,7 +175,6 @@
     "usage/server-usage.md",
     "usage/jwt-usage.md",
     "usage/htmlody-usage.md",
-    "usage/files-folders-usage.md",
     "usage",
     "readmes",
     "ideas",
