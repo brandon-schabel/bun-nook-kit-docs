@@ -1,4 +1,3 @@
-```markdown
 # Bun Nook Kit (BNK)
 
 ![Bun Nook Kit Logo](https://user-images.githubusercontent.com/18100375/231109092-34bdc552-dd37-413d-8eec-b9b668340b65.png)
@@ -48,7 +47,3 @@ BNK is available under the MIT License - free for personal and commercial use.
 ---
 
 Bun Nook Kit - Empowering Developers to Build the Future.
-
-```
-
-This Markdown content provides a concise overview of BNK, its main features, a quick start guide, links to detailed documentation, community involvement, and licensing information. When rendered as HTML, it will create an engaging and informative homepage for the project.
