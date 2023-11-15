@@ -32,7 +32,7 @@
 	- [SQLite Usage](usage/sqlite-usage.md)
 
 16. [🔄State Management](readmes/state.md) : The State Management module provides an interface for building type-safe state managers. It offers an immutable state management approach and includes dispatcher functions for easy data manipulation. The module also provides a WebSocket state manager for syncing data between the client and server.
-	1. [State Management Usage](usage/state-usage.md)
+	- [State Management Usage](usage/state-usage.md)
 
 17. [🛠️Utils](readmes/utils.md): This isn't really a module :) - it does contains various utility functions that can be used across different modules. It includes functions like classy for generating class names, normalizeBytes for converting byte numbers to formatted text, and value checkers for inferring data types.
 

@@ -6,14 +6,14 @@ Bun Nook Kit (BNK) is a comprehensive toolkit for software development, leveragi
 
 ## Getting Started
 
-```bash
-bun create github.com/brandon-schabel/bnk-server-starter
-cd bun-server-starter
-bun dev
-```
+
+Server Starter Template: 
+`bun create github.com/brandon-schabel/bnk-server-starter`
+
+Starter Server:
+`cd bun-server-starter & bun run dev`
 
 Visit `http://localhost:3000` for a demo.
-
 
 ## Key Features
 
@@ -45,6 +45,22 @@ There is a plethoria of documentation to follow, and you can find a complete lis
 
 Join our [Discord Server](https://discord.gg/rQyWN7V6) for support, discussions, and updates.
 
+## Screenshots
+
+An HTMLody component, as well the TypeScript inference abilities as all the types shown in the in intellisense were inferred from the SQLite schema configured for the user subscription.
+<img width="1026" alt="Xnapper-2023-11-14-19 42 26" src="https://github.com/brandon-schabel/bun-nook-kit/assets/18100375/8b5a1aa2-94f6-4af1-9e1d-8b7ce9eb4b01">
+
+
+The next two screenshots show how easy it can be to create and start a server - even with middleware with great type inference.
+
+<img width="555" alt="Xnapper-2023-11-14-19 43 47" src="https://github.com/brandon-schabel/bun-nook-kit/assets/18100375/0d66c9ec-0f3a-487c-98f8-8c14faeaa82d">
+
+<img width="582" alt="Xnapper-2023-11-14-19 47 14" src="https://github.com/brandon-schabel/bun-nook-kit/assets/18100375/78afc0e7-46c0-4269-8072-e8622f111b08">
+
+Lastly, an example showing direct importing from the htmlody module.
+
+<img width="478" alt="Xnapper-2023-11-14-19 51 14" src="https://github.com/brandon-schabel/bun-nook-kit/assets/18100375/9a70c8fa-a88a-48fc-95de-6c8dbadcb047">
+
 ## License
 
 BNK is available under the MIT License - free for personal and commercial use.
@@ -52,3 +68,5 @@ BNK is available under the MIT License - free for personal and commercial use.
 ---
 
 Bun Nook Kit - An attempt at keeping developers out of dependency hell.
+
+
