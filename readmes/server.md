@@ -78,10 +78,10 @@ start(3000); // Start the server on port 3000
 This server module is designed to integrate seamlessly with Bun and other modules in the Bun Nook Kit, providing a type-safe, flexible solution for web application development. 
 
 ### The server integrates very well with the following modules:
-- [HTMLody](../htmlody/HTMLODY-README.md)
-- [JWT](../jwt/JWT-README.md)
-- [Cookie](../cookies/COOKIES-README.md)
-- [Files And Folder](../files-folders/FILES-FOLDER-README.md)
-- [Auth](../auth//AUTH-README.md)
-- [SQlite](../sqlite/SQLITE-README.md)
+- [HTMLody](htmlody.md)
+- [JWT](jwt.md)
+- [Cookie](cookies.md)
+- [Files And Folder](files-folders.md)
+- [Auth](auth.md)
+- [SQlite](sqlite.md)
 
