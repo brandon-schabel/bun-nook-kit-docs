@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aaca6bdaf8fffea5",
+        "id": "671613ff573089d1",
         "type": "tabs",
         "children": [
           {
-            "id": "c6939e7bdae25dc9",
+            "id": "52fd43b1c34acc21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "modules.md",
+                "file": "plugins/BNK Plugins.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "modules.md",
+                "file": "plugins/BNK Plugins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "modules.md",
+                "file": "plugins/BNK Plugins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "modules.md"
+                "file": "plugins/BNK Plugins.md"
               }
             }
           }
@@ -147,35 +147,37 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c6939e7bdae25dc9",
+  "active": "52fd43b1c34acc21",
   "lastOpenFiles": [
-    "plugins/React.md",
-    "readmes/utils.md",
-    "readmes/type-utils.md",
-    "readmes/state.md",
-    "readmes/server.md",
-    "readmes/npm-release.md",
-    "readmes/jwt.md",
-    "readmes/htmlody-plugins.md",
-    "readmes/files-folder.md",
-    "readmes/data-gen.md",
-    "readmes/cli.md",
-    "usage/htmlody-usage.md",
-    "usage/jwt-usage.md",
-    "usage/server-usage.md",
-    "usage/sqlite-usage.md",
-    "usage/uuid-usage.md",
-    "usage/state-usage.md",
     "usage/files-folders-usage.md",
-    "usage/fetcher-usage.md",
-    "modules.md",
+    "readmes/state.md",
+    "readmes/type-utils.md",
+    "readmes/jwt.md",
+    "usage/state-usage.md",
+    "usage/server-usage.md",
+    "usage/htmlody-usage.md",
     "readme.md",
-    "plugins",
-    "readmes/logger.md",
-    "readmes/htmlody.md",
-    "readmes/auth.md",
+    "modules.md",
+    "usage/jwt-usage.md",
+    "readmes/sqlite.md",
     "readmes/fetcher.md",
-    "readmes/deply.md",
+    "readmes/cookies.md",
+    "plugins/react.md",
+    "plugins/react-server.md",
+    "plugins/BNK Plugins.md",
+    "readmes/auth.md",
+    "readmes/cli.md",
+    "usage/uuid-usage.md",
+    "usage/sqlite-usage.md",
+    "usage/fetcher-usage.md",
+    "stacks/bnk-server-starter.md",
+    "stacks/bnk-react-ssr-client-hydration.md",
+    "stacks/bnk-payments-stack.md",
+    "stacks/BNK Payments Stack",
+    "readmes/htmlody.md",
+    "stacks",
+    "readmes/uuid.md",
+    "plugins",
     "usage",
     "readmes",
     "ideas",
@@ -187,8 +189,6 @@
     "breakfast chats/attachments/Pasted image 20230713115727.png",
     "daily notes/2023/07/attachments/Pasted image 20230714084043.png",
     "daily notes/2023/07/attachments",
-    "breakfast chats/attachments",
-    "breakfast chats",
     "dev/studying/system design/attachments/Pasted image 20231101100438.png",
     "dev/studying/zigzagconversion/attachments/Pasted image 20231010121222.png",
     "attachments/Pasted image 20231012084326.png",

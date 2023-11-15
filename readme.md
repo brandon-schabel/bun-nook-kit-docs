@@ -15,6 +15,17 @@ Starter Server:
 
 Visit `http://localhost:3000` for a demo.
 
+
+## Documentation
+
+### [View Interactive Docs](https://nookit.dev/)
+
+### [View BNK Modules](modules.md)
+
+## Project 
+### [Bun Nook Kit GitHub](https://github.com/brandon-schabel/bun-nook-kit)
+### [Bun Nook Kit Docs GitHub](https://github.com/brandon-schabel/bun-nook-kit-docs)
+
 ## Key Features
 
 - **Zero Third-Party Dependencies**: BNK relies solely on Bun, ensuring lightweight and efficient operation.
@@ -33,13 +44,6 @@ Example of how you use the following modules to build out a full stack server
 - [HTMLody Module](readmes/htmlody.md) HTML templating with JSON object syntax. With a Tailwind-like CSS utility library!
 - [SQLite Module](readmes/sqlite.md) store permanent data!
 - [Auth Module](readmes/auth.md) - If your application requires it!
-
-
-### Extensive Documentation
-
-There is a plethoria of documentation to follow, and you can find a complete list of the available modules below.
-
-#### [View All Module Docs](modules.md)
 
 ## Community
 
