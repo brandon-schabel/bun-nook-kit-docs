@@ -23,7 +23,7 @@ Visit `http://localhost:3000` for a demo.
 - **Web API Standards**: Ensures broad compatibility and future-proofing.
 
 ## Stop Analysis Paralysis and Start Building
-The goal of BNK is to provide a set of tools in which a developer can rapidly develop fullstack interactive JavaScript application with no additional dependencies, BNK relies on nothing but the APIs provided by Bun. Bun is now on >1.0 and is stable and as such BNK is focusing on providing a stable 1.0 release to lock in the APIs.
+The goal of BNK is to provide a set of tools in which a developer can rapidly develop full-stack interactive JavaScript application with no additional dependencies, BNK relies on nothing but the APIs provided by Bun. Bun is now on >1.0 and is stable and as such BNK is focusing on providing a stable 1.0 release to lock in the APIs.
 
 
 ## Use What You need
@@ -36,7 +36,7 @@ The goal of BNK is to provide a set of tools in which a developer can rapidly de
 
 ## Documentation
 
-### [View All Modules](readmes/modules/md)
+### [View All Modules](modules.md)
 
 
 Explore various example projects to understand BNK's practical applications.
