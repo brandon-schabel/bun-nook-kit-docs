@@ -12,6 +12,7 @@
 
 Build simple dynamic apps like control panels very quickly.  
 
+---
 ### Key Features
 
 #### JSON Configuration for HTML Generation
@@ -42,6 +43,7 @@ const element: CRNode = {
 };
 ```
 
+---
 ### 2. CR (Class References)
 
 The function cc(class composition) - this is a utility that will take in an array of classNames very similar to Tailwind,however instead of using te class attribute or className for react you pass can call cc with your classes.
@@ -60,6 +62,7 @@ const element: CRNode = {
 };
 ```
 
+---
 ### 3. Content
 
 - (Optional) Represents the inner text of an HTML element.
@@ -71,6 +74,7 @@ const element: CRNode = {
 };
 ```
 
+---
 ### 4. Children
 
 Represents nested HTML elements. Very similar to the way it is used in React
@@ -88,6 +92,7 @@ const element: CRNode = {
 };
 ```
 
+---
 ### Reusability
 
 Create reusable components for consistency and reduced duplication. Ensure the return type, is of the correct node type you are using. A CRNode is class record node (which is how cr is supported).
@@ -102,6 +107,7 @@ const createButton = (label: string): CRNode => ({
 });
 ```
 
+---
 ### Build a Page
 
 ```typescript
@@ -141,6 +147,7 @@ const responsiveDiv: CRNode = {
 };
 ```
 
+---
 ### Markdown Plugin - Render Your Markdown Right In Your Json Config
 
 The Markdown Plugin for HTMLody allows you to easily incorporate Markdown content within your JSON configuration, converting it to HTML during the rendering process. This enables you to write content in a more human-readable format while still generating structured HTML.
@@ -164,10 +171,10 @@ console.log(html);  // Output: <div><h1>Welcome to My Site</h1><p>This is a <em>
 ```
 
 ---
-
 ## Using Markdown in Your JSON Configuration
 
 ### Basic Usage
+
 
 Add a `markdown` attribute to any node in your JSON configuration:
 
@@ -231,3 +238,7 @@ export const htmlBody: JsonHtmlNodeMap<AppNode> = {
 };
 
 ```
+
+## [HTMLody Usage](usage/htmlody-usage.md)
+
+Read the above docs to view more in depth usage

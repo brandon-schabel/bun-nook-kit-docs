@@ -1,4 +1,3 @@
-
 # State Management Module
 
 ## Introduction

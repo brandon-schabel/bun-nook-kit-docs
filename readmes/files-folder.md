@@ -31,6 +31,7 @@ The Files-Folder module is a comprehensive suite for managing files and director
 - **Delete Path**: Safely delete files or directories.
 
 ## Usage Examples
+### [Files Folder Usage](usage/files-folders-usage.md)
 
 ### Creating or Updating a File
 

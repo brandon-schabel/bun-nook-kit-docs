@@ -49,6 +49,5 @@ import { extractTimestampFromUuidV7 } from 'bnkit/uuid';
 const { timestamp } = extractTimestampFromUuidV7('01e501f3-9f9b-7f3a-b473-2c8c4d43a3f4');
 ```
 
-## Testing
 
-The module includes a comprehensive set of tests to ensure the reliability of UUID generation and manipulation functions, covering various scenarios and edge cases.
+## [UUID Usage](usage/uuid-usage.md)

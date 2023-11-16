@@ -76,6 +76,8 @@ start(3000); // Start the server on port 3000
 
 This server module is designed to integrate seamlessly with Bun and other modules in the Bun Nook Kit, providing a type-safe, flexible solution for web application development. 
 
+- [More Server Usage Docs](usage/server-usage.md)
+
 ### The server integrates very well with the following modules:
 - [HTMLody](htmlody.md)
 - [JWT](jwt.md)

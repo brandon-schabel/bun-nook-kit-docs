@@ -28,6 +28,8 @@ The Fetcher Module in the Bun Nook Kit is a versatile and type-safe HTTP request
 
 ## Usage Examples
 
+### [Fetcher Usage](usage/fetcher-usage.md) 
+
 ### Configuring and Using the Fetcher Factory
 
 ```typescript

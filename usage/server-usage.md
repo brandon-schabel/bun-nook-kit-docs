@@ -1,4 +1,4 @@
-# Server Usgae Guide
+# Server Usage Guide
 
 ---
 
@@ -87,4 +87,3 @@ const htmlRoute: RouteHandler = (req, mid) => {
 routes["/html"] = { GET: htmlRoute };
 ```
 
-## TODO: Add HTMLody builder xample

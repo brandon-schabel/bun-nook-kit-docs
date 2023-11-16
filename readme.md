@@ -18,8 +18,6 @@ Visit `http://localhost:3000` for a demo.
 
 ## Documentation
 
-### [View Interactive Docs](https://nookit.dev/)
-
 ### [View BNK Modules](modules.md)
 
 ## Project 
@@ -64,7 +62,7 @@ The next two screenshots show how easy it can be to create and start a server - 
 Lastly, an example showing direct importing from the htmlody module.
 
 <img width="478" alt="Xnapper-2023-11-14-19 51 14" src="https://github.com/brandon-schabel/bun-nook-kit/assets/18100375/9a70c8fa-a88a-48fc-95de-6c8dbadcb047">
-
+### [View Interactive Docs - Nookit.dev](https://nookit.dev/)
 ## License
 
 BNK is available under the MIT License - free for personal and commercial use.

@@ -54,6 +54,5 @@ const notesTable = dbTableFactory({
 notesTable.create({ id: "1", text: "Note text" });
 ```
 
-## Testing
+### [SQLite Usage Docs](usage/sqlite-usage.md)
 
-Includes comprehensive tests to ensure the reliability of schema-to-type translation and CRUD operations on SQLite databases.

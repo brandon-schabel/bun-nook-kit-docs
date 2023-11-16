@@ -7,5 +7,15 @@
       ],
       "key": "P"
     }
+  ],
+  "slides:start": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }

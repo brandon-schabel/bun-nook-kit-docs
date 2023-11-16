@@ -105,5 +105,5 @@ jwtServerSideFactory(secret).blacklistToken(token);
 This concludes the full life cycle of a JWT. The specifics of each step may vary depending on the exact needs of your application, but this should serve as a solid foundation for understanding how JWTs are used for authentication.
 
 
+## [More JWT Usage Docs](usage/jwt-usage.md)
 
-# TODO: I need to implement storing JWTs in cookies but I probably need to create a factory to handle cookies

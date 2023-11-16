@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "671613ff573089d1",
+        "id": "36ab630504cf5bdd",
         "type": "tabs",
         "children": [
           {
-            "id": "52fd43b1c34acc21",
+            "id": "2798141a0e34d76c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plugins/BNK Plugins.md",
+                "file": "readmes/server.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "plugins/BNK Plugins.md",
+                "file": "readmes/server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "plugins/BNK Plugins.md",
+                "file": "readmes/server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "plugins/BNK Plugins.md"
+                "file": "readmes/server.md"
               }
             }
           }
@@ -144,39 +144,44 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "52fd43b1c34acc21",
+  "active": "2798141a0e34d76c",
   "lastOpenFiles": [
-    "usage/files-folders-usage.md",
-    "readmes/state.md",
-    "readmes/type-utils.md",
-    "readmes/jwt.md",
-    "usage/state-usage.md",
     "usage/server-usage.md",
-    "usage/htmlody-usage.md",
-    "readme.md",
-    "modules.md",
-    "usage/jwt-usage.md",
-    "readmes/sqlite.md",
-    "readmes/fetcher.md",
-    "readmes/cookies.md",
-    "plugins/react.md",
-    "plugins/react-server.md",
-    "plugins/BNK Plugins.md",
-    "readmes/auth.md",
+    "usage/cli-usage.md",
     "readmes/cli.md",
-    "usage/uuid-usage.md",
+    "readmes/data-gen.md",
+    "readmes/cookies.md",
+    "readmes/type-utils.md",
+    "readmes/test-utils.md",
+    "readmes/state.md",
+    "readmes/sqlite.md",
+    "readmes/server.md",
+    "readmes/npm-release.md",
+    "readmes/logger.md",
+    "usage/deploy-usage.md",
+    "readmes/deploy.md",
+    "usage/npm-release-usage.md",
+    "usage/htmlody-usage.md",
+    "readmes/auth.md",
+    "modules.md",
+    "readme.md",
     "usage/sqlite-usage.md",
-    "usage/fetcher-usage.md",
-    "stacks/bnk-server-starter.md",
-    "stacks/bnk-react-ssr-client-hydration.md",
-    "stacks/bnk-payments-stack.md",
-    "stacks/BNK Payments Stack",
-    "readmes/htmlody.md",
-    "stacks",
+    "usage/jwt-usage.md",
+    "attachments/231109092.png",
+    "attachments",
+    "readmes/utils.md",
     "readmes/uuid.md",
+    "readmes/jwt.md",
+    "readmes/htmlody-plugins.md",
+    "readmes/htmlody.md",
+    "Excalidraw",
+    "Untitled.canvas",
+    "stacks/BNK Payments Stack",
+    "stacks",
     "plugins",
     "usage",
     "readmes",
@@ -184,17 +189,14 @@
     "blog/ideas/rules-of-programming",
     "books",
     "attachments/Pasted image 20231102151211.png",
-    "home assistant",
     "breakfast chats/attachments/Pasted image 20230713120904.png",
     "breakfast chats/attachments/Pasted image 20230713115727.png",
     "daily notes/2023/07/attachments/Pasted image 20230714084043.png",
-    "daily notes/2023/07/attachments",
     "dev/studying/system design/attachments/Pasted image 20231101100438.png",
     "dev/studying/zigzagconversion/attachments/Pasted image 20231010121222.png",
     "attachments/Pasted image 20231012084326.png",
     "attachments/Pasted image 20230825145959.png",
     "attachments/Pasted image 20230825145946.png",
-    "blog/attachments/Pasted image 20230820153531.png",
     "mato/mato canvas.canvas"
   ]
 }
