@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readmes/server.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readmes/server.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readmes/server.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readmes/server.md"
+                "file": "readme.md"
               }
             }
           }
@@ -150,6 +150,21 @@
   },
   "active": "2798141a0e34d76c",
   "lastOpenFiles": [
+    "OUT.md",
+    "node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/tr/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/ru/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/pl/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/ko/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/ja/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/it/diagnosticMessages.generated.json",
+    "node_modules/typescript/lib/es/diagnosticMessages.generated.json",
+    "node_modules/typescript/SECURITY.md",
+    "node_modules/typescript/README.md",
+    "node_modules/bun-types/README.md",
+    "readmes/server.md",
     "usage/server-usage.md",
     "usage/cli-usage.md",
     "readmes/cli.md",
@@ -159,7 +174,6 @@
     "readmes/test-utils.md",
     "readmes/state.md",
     "readmes/sqlite.md",
-    "readmes/server.md",
     "readmes/npm-release.md",
     "readmes/logger.md",
     "usage/deploy-usage.md",
@@ -172,22 +186,8 @@
     "usage/sqlite-usage.md",
     "usage/jwt-usage.md",
     "attachments/231109092.png",
-    "attachments",
     "readmes/utils.md",
-    "readmes/uuid.md",
-    "readmes/jwt.md",
-    "readmes/htmlody-plugins.md",
-    "readmes/htmlody.md",
-    "Excalidraw",
     "Untitled.canvas",
-    "stacks/BNK Payments Stack",
-    "stacks",
-    "plugins",
-    "usage",
-    "readmes",
-    "ideas",
-    "blog/ideas/rules-of-programming",
-    "books",
     "attachments/Pasted image 20231102151211.png",
     "breakfast chats/attachments/Pasted image 20230713120904.png",
     "breakfast chats/attachments/Pasted image 20230713115727.png",
