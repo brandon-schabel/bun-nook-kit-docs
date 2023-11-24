@@ -1,6 +1,7 @@
 # Bun Nook Kit CLI
 The quickest way to get start with Bun Nook Kit is with the CLI, you can easily get spun up with a BNK server with a single command:
 
+### Quickstart:
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/brandon-schabel/bun-nook-kit/main/scripts/quickstart.sh)
 ```
@@ -51,9 +52,12 @@ alias bnkcli='run_bnk_cli'
 
 The CLI will prompt you with a selection
 ## Quickstart
+**To Use:** `bnkcli`  -> `qs`
 - This will spin you up with a project very quickly, this is the same thing used in the single line quickstart.
+
 ## Fly Deploy
-- This will generate the necessary files you'll need to get going with a Fly.io deployment.
+**To Use**: `bnkcli` -> `fly`
+- This will generate the necessary files you'll need to get going with a Fly.io deployment for a project.
 
 ## CLI Goal
 The main goal of the CLI is to provide basically scaffolding configurations for extremely fast BNK setups, stacks, and deployment environments. Likely instead of having a bun of different stack, there will be a few base stacks and then the CLI will be used to add various configurations. This prevents the stacks and starter project from getting overly bloated and then gives you the option of choosing what you need to install/setup for your project, giving you yet another level of control and development velocity for your project(s),  

@@ -10,7 +10,7 @@ Visit `http://localhost:3000` for a demo.
 
 Uses:
 [React Server Plugin](plugins/react-server)
-[React Plugin](plugin/react)
+[React Plugin](plugins/react)
 
 [Server Module](readmes/server)
 

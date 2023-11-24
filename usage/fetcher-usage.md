@@ -9,7 +9,7 @@
 To get started, ensure you import the following from `create-fetch-factory`:
 
 ```typescript
-import { createFetchFactory, FactoryMethods } from "@bnk/core/modules/fetcher"
+import { createFetchFactory, FactoryMethods } from "c/modules/fetcher"
 ```
 
 ### Function Signature

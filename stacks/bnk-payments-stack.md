@@ -3,7 +3,7 @@
 This stack is pretty far along and the only two dependencies in this stack (aside from Bun of course) is BNK and Stripe.
 Uses the following Modules:
 - [Sqlite DB Module](readmes/sqlite)
-- [Server Module](readme/server)
+- [Server Module](readmes/server)
 - [HTMLody](readmes/htmlody)
 - [JWT](readmes/jwt)
 - [Cookies](readmes/cookies)

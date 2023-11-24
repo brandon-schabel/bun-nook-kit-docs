@@ -174,3 +174,7 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
+
+
+# Ignore Smart Connections folder because embeddings file is large and updated frequently
+.smart-connections
