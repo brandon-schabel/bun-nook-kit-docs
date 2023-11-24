@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe8196d9be7694b",
+        "id": "048ec677bf67d5f2",
         "type": "tabs",
         "children": [
           {
-            "id": "8e9c5bc027f2d72c",
+            "id": "e6cc8c8431f9901b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "usage/files-folders-usage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a8179a47a6272ac2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d3cc97e187705f35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "usage/files-folders-usage.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -66,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "@bnk",
+                "query": "bnkit/modules",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "usage/files-folders-usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "usage/files-folders-usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,21 +118,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "usage/files-folders-usage.md"
-              }
-            }
-          },
-          {
-            "id": "8fea884e55b7e184",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -175,25 +140,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "940a9b143cff776f",
+  "active": "e6cc8c8431f9901b",
   "lastOpenFiles": [
-    "usage/fetcher-usage.md",
+    "readme.md",
+    "FAQs.md",
+    "modules.md",
+    "bnk-cli/bnk-cli-readme.md",
+    "Untitled.canvas",
     "usage/files-folders-usage.md",
+    "usage/fetcher-usage.md",
     "stacks/bnk-payments-stack.md",
     "stacks/bnk-server-starter.md",
     "readmes/cli.md",
     "Untitled",
     "readmes/cookies.md",
     "readmes/auth.md",
-    "bnk-cli/bnk-cli-readme.md",
     "plugins/BNK Plugins.md",
     "plugins/react-server.md",
-    "modules.md",
     "Usage Docs.md",
     "usage/deploy-usage.md",
     "usage/cli-usage.md",
     "readmes/utils.md",
-    "readme.md",
     "usage/npm-release-usage.md",
     "usage/htmlody-usage.md",
     "stacks/bnk-react-ssr-client-hydration.md",
@@ -213,7 +180,6 @@
     "node_modules/typescript/lib/ru/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/pl/diagnosticMessages.generated.json",
-    "Untitled.canvas",
     "attachments/Pasted image 20231102151211.png",
     "breakfast chats/attachments/Pasted image 20230713120904.png",
     "breakfast chats/attachments/Pasted image 20230713115727.png",

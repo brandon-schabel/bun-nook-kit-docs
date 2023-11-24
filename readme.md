@@ -20,9 +20,9 @@ After you run the quickstart script it'll prompt you with the code to add to you
 ## [Optional - CLI Install Instructions](bnk-cli/bnk-cli-readme.md)
 
 # [View Bun Nook Kit Modules](modules.md)
-Bun Nook Kit has a variety of module to help you build whatever type of web based application. Anything from a CLI to a fullstack web server.
+Bun Nook Kit has a variety of module to help you build any web based application from a CLI to a fullstack web server. Plug the modules into an existing project as long as you can run Bun, or start your next project entirely on BNK and experience a much simpler development experience. 
 
-## [Bun Nook Kit GitHub](https://github.com/brandon-schabel/bun-nook-kit)
+## [Bun Nook Kit Project GitHub](https://github.com/brandon-schabel/bun-nook-kit)
 
 
 ## Key Features
