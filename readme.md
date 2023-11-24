@@ -17,41 +17,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/brandon-schabel/bun-nook-kit
 ```
 After you run the quickstart script it'll prompt you with the code to add to your zshrc/bashrc, this CLI script will point to the latest version of bnkit when using the CLI
 
-### Manual CLI Installed
-Optional Global Install and Add CLI:
-```bash
-bun add -g bnkit
-```
-
-### Update your `.zshrc` or `.bashrc`  with the following script:
-
-```bash
-function run_bnk_cli() {
-    echo "Bun install location: $BUN_INSTALL"
-    echo "Bun Nook Kit install location: $BNKIT_PATH"
-
-    # Find the latest version of bnkit
-    versions=$(ls $BNKIT_PATH | sort -V)
-    latest_version=$(echo "$versions" | tail -1)
-
-    echo "Latest version of bnkit: $latest_version"
-
-    # Define the path to the cli.sh script in the latest version
-    cli_script_path="$BNKIT_PATH/$latest_version/scripts/cli.sh"
-
-    echo "cli.sh path: $cli_script_path"
-
-    # Check if the script exists
-    if [[ -f "$cli_script_path" ]]; then
-        # Run the script with the --dir flag set to the current directory
-        "$cli_script_path" --dir "$(pwd)"
-    else
-        echo "cli.sh not found in the latest version of bnkit."
-    fi
-}
-
-alias bnkcli='run_bnk_cli'
-```
+## [Optional - CLI Install Instructions](bnk-cli/bnk-cli-readme.md)
 
 # [View Bun Nook Kit Modules](modules.md)
 Bun Nook Kit has a variety of module to help you build whatever type of web based application. Anything from a CLI to a fullstack web server.

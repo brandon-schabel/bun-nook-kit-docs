@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "85e1b14c3d27381d",
+        "id": "9fe8196d9be7694b",
         "type": "tabs",
         "children": [
           {
-            "id": "733e98c16e960e3b",
+            "id": "a4d48097d3935b43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "usage/htmlody-usage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "usage/htmlody-usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "usage/htmlody-usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "usage/htmlody-usage.md"
               }
             }
           }
@@ -148,22 +148,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "733e98c16e960e3b",
+  "active": "a4d48097d3935b43",
   "lastOpenFiles": [
-    "modules.md",
-    "readme.md",
-    "notes/Untitled.md",
-    "notes/Azure Config.md",
-    "usage/sqlite-usage.md",
-    "attachments/231109092.png",
-    "usage/jwt-usage.md",
     "usage/fetcher-usage.md",
-    "usage/deploy-usage.md",
-    "BNK Used By.md",
+    "usage/cli-usage.md",
+    "stacks/bnk-server-starter.md",
+    "stacks/bnk-react-ssr-client-hydration.md",
+    "stacks/bnk-payments-stack.md",
+    "plugins/react-server.md",
+    "plugins/react.md",
+    "plugins/BNK Plugins.md",
+    "bnk-cli/bnk-cli-readme.md",
+    "readme.md",
+    "readmes/jwt.md",
+    "readmes/htmlody.md",
+    "readmes/files-folder.md",
+    "readmes/deploy.md",
+    "readmes/cookies.md",
+    "readmes/cli.md",
+    "readmes/auth.md",
     "usage/state-usage.md",
-    "usage/uuid-usage.md",
+    "usage/Untitled.md",
+    "usage/server-usage.md",
+    "usage/sqlite-usage.md",
+    "usage/npm-release-usage.md",
+    "usage/jwt-usage.md",
+    "usage/htmlody-usage.md",
+    "usage/files-folders-usage.md",
+    "usage/deploy-usage.md",
+    "attachments/231109092.png",
+    "\"bnk-cli",
+    "bnk-cli",
     "notes",
-    "OUT.md",
     "node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/tr/diagnosticMessages.generated.json",
@@ -171,22 +187,6 @@
     "node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/pl/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/ko/diagnosticMessages.generated.json",
-    "node_modules/typescript/lib/ja/diagnosticMessages.generated.json",
-    "node_modules/typescript/lib/it/diagnosticMessages.generated.json",
-    "node_modules/typescript/SECURITY.md",
-    "node_modules/typescript/README.md",
-    "node_modules/bun-types/README.md",
-    "readmes/server.md",
-    "usage/server-usage.md",
-    "usage/cli-usage.md",
-    "readmes/cli.md",
-    "readmes/data-gen.md",
-    "readmes/cookies.md",
-    "readmes/type-utils.md",
-    "readmes/test-utils.md",
-    "readmes/state.md",
-    "readmes/sqlite.md",
-    "readmes/npm-release.md",
     "Untitled.canvas",
     "attachments/Pasted image 20231102151211.png",
     "breakfast chats/attachments/Pasted image 20230713120904.png",
