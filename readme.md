@@ -2,32 +2,66 @@
 # Bun Nook Kit
 
 ![Bun Nook Kit Logo](https://user-images.githubusercontent.com/18100375/231109092-34bdc552-dd37-413d-8eec-b9b668340b65.png)
+**Bun Nook Kit (BNK)** is a comprehensive toolkit for software development, leveraging the power of Bun and TypeScript. With zero third-party dependencies, strong TypeScript inferencing, and a focus on Web API standards, BNK offers a modular, type-safe, and efficient way to build robust applications.
 
-Bun Nook Kit (BNK) is a comprehensive toolkit for software development, leveraging the power of Bun and TypeScript. With zero third-party dependencies, strong TypeScript inferencing, and a focus on Web API standards, BNK offers a modular, type-safe, and efficient way to build robust applications.
+![GitHub License](https://img.shields.io/github/license/brandon-schabel/bun-nook-kit)
 
-## Getting Started
+![npm](https://img.shields.io/npm/v/bnkit?logo=npm)  ![GitHub release (with filter)](https://img.shields.io/github/v/release/brandon-schabel/bun-nook-kit)  ![Stars](https://img.shields.io/github/stars/brandon-schabel/bun-nook-kit) 
+![npm bundle size](https://img.shields.io/bundlephobia/min/bnkit)  ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/bnkit)
 
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/bun_nook_kit).  ![Discord](https://img.shields.io/discord/1164699087543746560) 
+## Quickstart
+  
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/brandon-schabel/bun-nook-kit/main/scripts/quickstart.sh)
+```
+After you run the quickstart script it'll prompt you with the code to add to your zshrc/bashrc, this CLI script will point to the latest version of bnkit when using the CLI
 
-Server Starter Template: 
-`bun create github.com/brandon-schabel/bnk-server-starter`
+### Manual CLI Installed
+Optional Global Install and Add CLI:
+```bash
+bun add -g bnkit
+```
 
-Starter Server:
-`cd bun-server-starter & bun run dev`
+### Update your `.zshrc` or `.bashrc`  with the following script:
 
-Visit `http://localhost:3000` for a demo.
+```bash
+function run_bnk_cli() {
+    echo "Bun install location: $BUN_INSTALL"
+    echo "Bun Nook Kit install location: $BNKIT_PATH"
 
+    # Find the latest version of bnkit
+    versions=$(ls $BNKIT_PATH | sort -V)
+    latest_version=$(echo "$versions" | tail -1)
 
-## Documentation
+    echo "Latest version of bnkit: $latest_version"
 
-### [View BNK Modules](modules.md)
+    # Define the path to the cli.sh script in the latest version
+    cli_script_path="$BNKIT_PATH/$latest_version/scripts/cli.sh"
 
-## Project 
-### [Bun Nook Kit GitHub](https://github.com/brandon-schabel/bun-nook-kit)
-### [Bun Nook Kit Docs GitHub](https://github.com/brandon-schabel/bun-nook-kit-docs)
+    echo "cli.sh path: $cli_script_path"
+
+    # Check if the script exists
+    if [[ -f "$cli_script_path" ]]; then
+        # Run the script with the --dir flag set to the current directory
+        "$cli_script_path" --dir "$(pwd)"
+    else
+        echo "cli.sh not found in the latest version of bnkit."
+    fi
+}
+
+alias bnkcli='run_bnk_cli'
+```
+
+# [View Bun Nook Kit Modules](modules.md)
+Bun Nook Kit has a variety of module to help you build whatever type of web based application. Anything from a CLI to a fullstack web server.
+
+## [Bun Nook Kit GitHub](https://github.com/brandon-schabel/bun-nook-kit)
+
 
 ## Key Features
 
-- **Zero Third-Party Dependencies**: BNK relies solely on Bun, ensuring lightweight and efficient operation.
+- **Zero Third-Party Dependencies**: BNK relies solely on [Bun](https://bun.sh), ensuring lightweight and efficient operation.
 - **Strong TypeScript Type Inferencing**: Enhances code reliability and eases development with powerful type support.
 - **Modular Design**: Provides flexibility to use only what you need for your project.
 - **Web API Standards**: Ensures broad compatibility and future-proofing.
@@ -63,6 +97,8 @@ The next two screenshots show how easy it can be to create and start a server - 
 Lastly, an example showing direct importing from the htmlody module.
 
 <img width="478" alt="Xnapper-2023-11-14-19 51 14" src="https://github.com/brandon-schabel/bun-nook-kit/assets/18100375/9a70c8fa-a88a-48fc-95de-6c8dbadcb047">
+
+For those on GitHub:
 ### [View Interactive Docs - Nookit.dev](https://nookit.dev/)
 ## License
 
@@ -72,4 +108,6 @@ BNK is available under the MIT License - free for personal and commercial use.
 
 Bun Nook Kit - An attempt at keeping developers out of dependency hell.
 
+Contribute to The Docs:
+[Bun Nook Kit Docs GitHub](https://github.com/brandon-schabel/bun-nook-kit-docs)
 

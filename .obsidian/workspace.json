@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "36ab630504cf5bdd",
+        "id": "85e1b14c3d27381d",
         "type": "tabs",
         "children": [
           {
-            "id": "2798141a0e34d76c",
+            "id": "733e98c16e960e3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,8 +148,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2798141a0e34d76c",
+  "active": "733e98c16e960e3b",
   "lastOpenFiles": [
+    "modules.md",
+    "readme.md",
+    "notes/Untitled.md",
+    "notes/Azure Config.md",
+    "usage/sqlite-usage.md",
+    "attachments/231109092.png",
+    "usage/jwt-usage.md",
+    "usage/fetcher-usage.md",
+    "usage/deploy-usage.md",
+    "BNK Used By.md",
+    "usage/state-usage.md",
+    "usage/uuid-usage.md",
+    "notes",
     "OUT.md",
     "node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json",
@@ -160,7 +173,6 @@
     "node_modules/typescript/lib/ko/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/ja/diagnosticMessages.generated.json",
     "node_modules/typescript/lib/it/diagnosticMessages.generated.json",
-    "node_modules/typescript/lib/es/diagnosticMessages.generated.json",
     "node_modules/typescript/SECURITY.md",
     "node_modules/typescript/README.md",
     "node_modules/bun-types/README.md",
@@ -175,18 +187,6 @@
     "readmes/state.md",
     "readmes/sqlite.md",
     "readmes/npm-release.md",
-    "readmes/logger.md",
-    "usage/deploy-usage.md",
-    "readmes/deploy.md",
-    "usage/npm-release-usage.md",
-    "usage/htmlody-usage.md",
-    "readmes/auth.md",
-    "modules.md",
-    "readme.md",
-    "usage/sqlite-usage.md",
-    "usage/jwt-usage.md",
-    "attachments/231109092.png",
-    "readmes/utils.md",
     "Untitled.canvas",
     "attachments/Pasted image 20231102151211.png",
     "breakfast chats/attachments/Pasted image 20230713120904.png",
