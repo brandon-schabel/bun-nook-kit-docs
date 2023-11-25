@@ -5,11 +5,14 @@
 When a user attempts to log in, they submit their credentials (usually a username and password) to the server. The server then validates these credentials.
 
 ```typescript
-app.post('/api/login', (req, res) => {
-  const { username, password } = req.body;
+"/api/login": {
+  post:(req) => {
+    const { username, password } = req.body;
 
-  // Validate the user's credentials...
-});
+    // Validate the user's credentials...
+    // or do it in the middleware
+  }
+}
 ```
 
 ## 2. JWT Generation (Server Side)
@@ -81,25 +84,30 @@ if (jwtClientSideFactory().isJwtExpired(token)) {
 When the JWT expires, the client can use the refresh token to request a new JWT from the server. The server verifies the refresh token, generates a new JWT, and sends it to the client.
 
 ```typescript
-app.post('/api/token', (req, res) => {
-  const { refreshToken } = req.body;
+routes = {
+  '/api/token': {
+    get: (req) => {
+    const { refreshToken } = req.body;
 
-  if (!jwtServerSideFactory(secret).validateRefreshToken(refreshToken)) {
-    res.status(403).json({ message: 'Invalid refresh token' });
-    return;
-  }
+    if (!jwtServerSideFactory(secret).validateRefreshToken(refreshToken)) {
+      res.status(403).json({ message: 'Invalid refresh token' });
+      return;
+    }
 
-  const newToken = jwtServerSideFactory(secret).createJwt(/* new payload */, secret);
-  res.json({ token: newToken });
-});
+    const newToken = jwtServerSideFactory(secret).createJwt(/* new payload */, secret);
+
+    return jsonRes({ token: newToken });
+    }
+  };
+}
 ```
 
-## 10. Blacklisting Tokens (Server Side)
+## 10. Invalidating Tokens (Server Side)
 
 In some cases, it may be necessary to invalidate a JWT before it naturally expires. This is done by adding the JWT to a blacklist on the server. Any attempts to use a blacklisted token will result in an error, even if the token is otherwise valid.
 
 ```typescript
-jwtServerSideFactory(secret).blacklistToken(token);
+jwtServerSideFactory(secret).invalidateToken(token);
 ```
 
 This concludes the full life cycle of a JWT. The specifics of each step may vary depending on the exact needs of your application, but this should serve as a solid foundation for understanding how JWTs are used for authentication.

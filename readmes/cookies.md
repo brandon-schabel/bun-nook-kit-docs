@@ -85,15 +85,18 @@ const sessionValue = clientCookieFactory.getCookie("session");
 // Server
 const serverCookieFactory = createServerCookieFactory();
 
-// In a request handler...
-app.get("/check-session", (req, res) => {
-  const session = serverCookieFactory.getCookie(req, "session");
-  if (session) {
-    res.send("Session is valid!");
-  } else {
-    res.send("No valid session found.");
+// route config example 
+// ... const routes = {
+"/check-session": {
+  get: (req) => {
+    const session = serverCookieFactory.getCookie(req, "session");
+    if (session) {
+      res.send("Session is valid!");
+    } else {
+      res.send("No valid session found.");
+    }
   }
-});
+}
 ```
 
 In this example, the client sets a "session" cookie and the server checks for its existence upon a request. This is a basic representation, and actual implementation details might vary based on your stack and requirements.
