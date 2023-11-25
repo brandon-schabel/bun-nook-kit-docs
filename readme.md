@@ -1,7 +1,8 @@
 
 # Bun Nook Kit
 
-![Bun Nook Kit Logo](https://user-images.githubusercontent.com/18100375/231109092-34bdc552-dd37-413d-8eec-b9b668340b65.png)
+
+![[BNK Logo.webp]]
 **Bun Nook Kit (BNK)** is a comprehensive toolkit for software development, leveraging the power of Bun and TypeScript. With zero third-party dependencies, strong TypeScript inferencing, and a focus on Web API standards, BNK offers a modular, type-safe, and efficient way to build robust applications.
 
 ![GitHub License](https://img.shields.io/github/license/brandon-schabel/bun-nook-kit)
@@ -9,7 +10,7 @@
 ![npm](https://img.shields.io/npm/v/bnkit?logo=npm)  ![GitHub release (with filter)](https://img.shields.io/github/v/release/brandon-schabel/bun-nook-kit)  ![Stars](https://img.shields.io/github/stars/brandon-schabel/bun-nook-kit) 
 ![npm bundle size](https://img.shields.io/bundlephobia/min/bnkit)  ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/bnkit)
 
-![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/bun_nook_kit).  ![Discord](https://img.shields.io/discord/1164699087543746560) 
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/bun_nook_kit)  ![Discord](https://img.shields.io/discord/1164699087543746560) 
 ## Quickstart
   
 ```bash
